@@ -1,0 +1,92 @@
+{
+    "Sandeep" :{
+        "9_10":true,
+        "10_11":false,
+        "11_12":true,
+        "12_1":false,
+        "1_2":false,  
+        "2_3":true,
+        "3_4":false
+    },
+    "Anju" :{
+        "9_10":true,
+        "10_11":true,
+        "11_12":false,
+        "12_1":true,
+        "1_2":false,  
+        "2_3":true,
+        "3_4":false
+    },
+    "Harminder" :{
+        "9_10":false,
+        "10_11":true,
+        "11_12":true,
+        "12_1":false,
+        "1_2":true,    
+        "2_3":true,
+        "3_4":false
+    },
+    "Lovely" :{
+        "9_10":true,
+        "10_11":true,
+        "11_12":true,
+        "12_1":false,
+        "1_2":false,    
+        "2_3":true,
+        "3_4":false
+    },
+    "Sweety" :{
+        "9_10":true,
+        "10_11":true,
+        "11_12":false,
+        "12_1":false,
+        "1_2":false,    
+        "2_3":true,
+        "3_4":true
+    },
+    "Anuj" :{
+        "9_10":true,
+        "10_11":false,
+        "11_12":true,
+        "12_1":true,
+        "1_2":false,    
+        "2_3":true,
+        "3_4":false
+    },
+    "Deepak" :{
+        "9_10":true,
+        "10_11":false,
+        "11_12":true,
+        "12_1":false,
+        "1_2":false,    
+        "2_3":true,
+        "3_4":true
+    },
+    "Rahul" :{
+        "9_10":false,
+        "10_11":false,
+        "11_12":true,
+        "12_1":false,
+        "1_2":true,    
+        "2_3":true,
+        "3_4":false
+    },
+    "Umesh" :{
+        "9_10":false,
+        "10_11":false,
+        "11_12":false,
+        "12_1":false,
+        "1_2":false,    
+        "2_3":true,
+        "3_4":true
+    },
+    "Mohit" :{
+        "9_10":true,
+        "10_11":true,
+        "11_12":true,
+        "12_1":true,
+        "1_2":false,    
+        "2_3":true,
+        "3_4":true
+    }
+}

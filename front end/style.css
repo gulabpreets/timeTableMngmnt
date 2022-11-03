@@ -1,0 +1,184 @@
+html{
+  font-size: 62.5%
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.n1{
+  list-style-type: none;
+  margin: none;
+  padding: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.i0 {
+  float: left;
+  font-size: large;
+  text-align: center;
+  padding: .5rem .5rem;
+}
+.i1{
+  float: left;
+  font-size: large;
+  text-align: center;
+  padding: .5rem .5rem;
+}
+
+.piet_l{
+  width: 11rem;
+  height: 6rem;
+  border-radius: 1rem;
+
+}
+
+
+.i1 {
+  float: right;
+  font-size: large;
+  padding-top: 1rem;
+}
+
+.i1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.4rem 1.6rem;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.i1 a:hover {
+  background-color: #111;
+}
+
+.form1 {border: .3rem solid #f1f1f1;margin-left: auto;margin-right: auto;width:50rem;height: 90%;padding:.5rem;}
+p{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  color: rgb(7, 7, 7);;
+  font-size: 3.8rem;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 1.2rem 2rem;
+  margin: .8rem 0;
+  display: inline-block;
+  border: .1rem solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 1.4rem .2rem;
+  margin: .8rem 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.avatar {
+  padding-top: 1rem;
+}
+
+.container {
+  padding: 1.8rem;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 1rem 1.8rem;
+  background-color: #f44336;
+}
+
+span.psw {
+  float: right;
+  padding-top: 1.6rem;
+}
+@media screen and (max-width:2000px){
+  html{
+    font-size: .8rem
+  }
+   span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+@media screen and (max-width:1200px){
+  html{
+    font-size: .7rem
+  }
+   span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+@media screen and (max-width:900px){
+  html{
+    font-size: .6rem
+  }
+   span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+  i11{
+    float: left;
+    font-size: 4rem;
+    padding: 3rem 3srem;
+  }
+  .i0 a{
+    float:center
+  }
+  .piet_l{
+    width: 17rem;
+    height: 10rem;
+    border-radius: 1rem;
+  
+  }
+  i1 {
+    float: none;
+    font-size: medium;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+}
+
+
+@media screen and (max-width: 780px) {
+  html{
+    font-size: .5rem
+  }
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
