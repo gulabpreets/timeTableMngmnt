@@ -198,13 +198,13 @@ html, body {
   padding: 0;
 }
 
-/* Set font size to 10px (for easier rem units) */
+/* Set font size and default font family */
 html {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /* Navigation */
@@ -224,24 +224,25 @@ body {
 
 .i11 {
   float: left;
-  font-size: 3rem;
-  padding: 3rem;
+  font-size: 2.4rem;
+  padding: 1rem;
   color: #ffffff;
 }
 
 .i1 {
   float: right;
-  font-size: 2rem;
-  padding: 1rem;
+  font-size: 1.8rem;
+  padding: 0.8rem;
 }
 
 .i1 a {
   display: block;
   color: white;
   text-align: center;
-  padding: 1.4rem 1.6rem;
+  padding: 1.2rem 1.4rem;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  transition: background-color 0.3s ease;
 }
 
 .i1 a:hover {
@@ -249,14 +250,15 @@ body {
 }
 
 .piet_l {
-  width: 11rem;
-  height: 6rem;
+  width: 8rem;
+  height: 4.5rem;
   border-radius: 1rem;
 }
 
 /* Form */
 .part2 {
-  margin: 2rem 0;
+  margin: 2rem auto;
+  text-align: center;
 }
 
 label {
@@ -270,7 +272,8 @@ select {
 }
 
 .part3 {
-  margin: 2rem 0;
+  margin: 2rem auto;
+  text-align: center;
 }
 
 #btn {
@@ -279,7 +282,8 @@ select {
   padding: 1.4rem 2rem;
   border: none;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  transition: opacity 0.3s ease;
 }
 
 #btn:hover {
@@ -289,71 +293,79 @@ select {
 /* List of Faculty */
 .part4 {
   margin-top: 4rem;
+  text-align: center;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 #ord_lst {
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 /* Responsive Styling */
 @media screen and (max-width: 900px) {
   html {
-    font-size: 8px;
+    font-size: 14px;
   }
   
   .i11 {
-    font-size: 3.5rem;
-    padding: 3rem 3rem;
+    font-size: 2.8rem;
+    padding: 1.5rem;
   }
   
   .piet_l {
-    width: 17rem;
-    height: 10rem;
-    border-radius: 1rem;
+    width: 11rem;
+    height: 6rem;
   }
   
   .i1 {
-    float: none;
+    padding: 0.6rem;
     font-size: 1.6rem;
-    margin: 0;
-    padding: 0.7rem;
   }
 }
 
 @media screen and (max-width: 780px) {
   html {
-    font-size: 5px;
+    font-size: 12px;
   }
   
   .i11 {
-    font-size: 3rem;
-    padding: 2rem 2rem;
+    font-size: 2.4rem;
+    padding: 1rem;
   }
   
   .piet_l {
-    width: 14rem;
-    height: 8rem;
-    border-radius: 1rem;
+    width: 9rem;
+    height: 5rem;
   }
   
   .i1 {
-    padding: 0.5rem;
+    padding: 0.4rem;
     font-size: 1.4rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   html {
-    font-size: 4px;
+    font-size: 10px;
   }
   
   .i11 {
     font-size: 2rem;
-    padding: 2rem 2rem;
+    padding: 0.8rem;
   }
   
+  .piet_l {
+    width: 7rem;
+    height: 4rem;
+  }
+  
+  .i1 {
+    padding: 0.3rem;
+    font-size: 1.2rem;
+  }
+}
+
