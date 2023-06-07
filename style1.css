@@ -1,4 +1,4 @@
-html{
+/* html{
   font-size: 62.5%
 }
 
@@ -189,4 +189,171 @@ border-radius: 1.2rem;
       html{
         font-size: .5rem
       }
+} */
+
+
+/* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
 }
+
+/* Set font size to 10px (for easier rem units) */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+.n1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.i0 {
+  float: left;
+  text-align: center;
+  padding: 1rem;
+}
+
+.i11 {
+  float: left;
+  font-size: 3rem;
+  padding: 3rem;
+  color: #ffffff;
+}
+
+.i1 {
+  float: right;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.i1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.4rem 1.6rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.i1 a:hover {
+  background-color: #111;
+}
+
+.piet_l {
+  width: 11rem;
+  height: 6rem;
+  border-radius: 1rem;
+}
+
+/* Form */
+.part2 {
+  margin: 2rem 0;
+}
+
+label {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+select {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.part3 {
+  margin: 2rem 0;
+}
+
+#btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 1.4rem 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+#btn:hover {
+  opacity: 0.8;
+}
+
+/* List of Faculty */
+.part4 {
+  margin-top: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+#ord_lst {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 8px;
+  }
+  
+  .i11 {
+    font-size: 3.5rem;
+    padding: 3rem 3rem;
+  }
+  
+  .piet_l {
+    width: 17rem;
+    height: 10rem;
+    border-radius: 1rem;
+  }
+  
+  .i1 {
+    float: none;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 5px;
+  }
+  
+  .i11 {
+    font-size: 3rem;
+    padding: 2rem 2rem;
+  }
+  
+  .piet_l {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 1rem;
+  }
+  
+  .i1 {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 4px;
+  }
+  
+  .i11 {
+    font-size: 2rem;
+    padding: 2rem 2rem;
+  }
+  
